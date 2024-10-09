@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 class ColorStyle {
-  final Color base = const Color(0xFF4d88ff);
+  final Color base = const Color(0xFF77D4FC);
   final Color textField = const Color(0xFFF1F1F1);
   final Color rating = const Color(0xFF303030);
   final Color white = const Color(0xFFFFFFFF);

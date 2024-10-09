@@ -56,7 +56,7 @@ class NavbarItems extends StatelessWidget {
               shape: const CircleBorder(),
               child: Icon(
                 (Icons.favorite),
-                color: provider.currentTab == 3
+                color: provider.currentTab == 2
                     ? colorStyle.base
                     : Colors.black.withOpacity(0.2),
               ),
@@ -68,7 +68,7 @@ class NavbarItems extends StatelessWidget {
               shape: const CircleBorder(),
               child: Icon(
                 (Icons.person),
-                color: provider.currentTab == 4
+                color: provider.currentTab == 3
                     ? colorStyle.base
                     : Colors.black.withOpacity(0.2),
               ),

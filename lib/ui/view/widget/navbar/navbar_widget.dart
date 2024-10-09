@@ -1,3 +1,4 @@
+import 'package:e_library/ui/view/screen/other/add_book_screen.dart';
 import 'package:e_library/ui/view/style/color_style.dart';
 import 'package:e_library/ui/view_model/navbar_provider.dart';
 import 'package:flutter/material.dart';
@@ -29,8 +30,8 @@ class _NavbarWidgetState extends State<NavbarWidget> {
       floatingActionButton: FloatingActionButton(
         backgroundColor: colorStyle.base,
         onPressed: () {
-          // Navigator.push(context,
-          //     MaterialPageRoute(builder: (context) => const AddRecipeScreen()));
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => const AddBookScreen()));
         },
         child: const Icon(Icons.add),
       ),
